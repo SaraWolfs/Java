@@ -8,9 +8,9 @@ public class Exercise_1 {
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("Dame un número para calcular su resultado al cuadrado y al cubo");
-        int numero_entero = sc.nextInt();
-        int numero_cuadrado = (int) Math.pow(numero_entero, 2);
-        int numero_cubo = (int) Math.pow(numero_entero, 3);
-        System.out.println("Número "+numero_entero+ "\nResultado al cuadrado: "+numero_cuadrado+" y al cubo: "+numero_cubo);
+        int numero= sc.nextInt();
+        int numero_cuadrado = (int) Math.pow(numero, 2);
+        int numero_cubo = (int) Math.pow(numero, 3);
+        System.out.println("Número "+numero+ "\nResultado al cuadrado: "+numero_cuadrado+" y al cubo: "+numero_cubo);
     }
 }
